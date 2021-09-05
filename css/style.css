@@ -65,8 +65,11 @@ body{
 .footer{
     background: #bdb5b5;
     position: relative;
-    top: 2.35rem;
+    bottom: 50px;
 
+}
+.footer_name{
+    font-size: medium;
 }
 h3{
     text-align: center;
@@ -120,6 +123,11 @@ h4{
     .button{
         height: 2.4rem;
         width: 2.3rem;
+    }
+    .footer_name{
+        position: relative;
+        bottom: 20px;
+        font-size: small;
     }
     
 }
