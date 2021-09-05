@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Calculator</title>
+    <link rel="icon" href="cal_img.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h4 class="heading" data-text="Online_Calculator...">Online_Calculator</h4>
+    </div>
+    <div class="container">
+        <div class="cal-box">
+            <form name="calculator">
+                <input type="text" id="display" placeholder="0" readonly>
+                <br>
+                <input class="button" type="button" value="7" onclick="disc('7')">
+                <input class="button" type="button" value="8" onclick="disc('8')">
+                <input class="button" type="button" value="9" onclick="disc('9')">
+                <input class="button mathbutton" type="button" value="+" onclick="disc('+')">
+                <br>
+                <input class="button" type="button" value="4" onclick="disc('4')">
+                <input class="button" type="button" value="5" onclick="disc('5')">
+                <input class="button" type="button" value="6" onclick="disc('6')">
+                <input class="button mathbutton" type="button" value="-" onclick="disc('-')">
+                <br>
+                <input class="button" type="button" value="1" onclick="disc('1')">
+                <input class="button" type="button" value="2" onclick="disc('2')">
+                <input class="button" type="button" value="3" onclick="disc('3')">
+                <input class="button mathbutton" type="button" value="X" onclick="disc('*')">
+                <br>
+                <input class="button clearButton" type="button" value="C" onclick="calculator.display.value=''">
+                <input class="button" type="button" value="0" onclick="disc('0')">
+                <input class="button mathbutton" type="button" value="="
+                    onclick="solve()">
+                <input class="button mathbutton" type="button" value="/" onclick="disc('/')">
+                <br>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <h3>This calculator is developed with ❤️ by..</h3>
+        <h3 class="name">Rishabh Dwivedi</h3>
+        <h4>&copy; all right reserved.</h4>
+    </footer>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
