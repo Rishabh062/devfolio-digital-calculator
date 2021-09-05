@@ -112,3 +112,14 @@ h4{
         color: white;
     }
 }
+
+@media screen and  (max-width:480px) {
+    .container{
+       height: 26rem;
+    }
+    .button{
+        height: 2.4rem;
+        width: 2.3rem;
+    }
+    
+}
